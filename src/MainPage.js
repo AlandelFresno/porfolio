@@ -1,13 +1,14 @@
 import React from 'react';
+import Presentation from './components/Presentation';
 import Welcome from './components/Welcome';
 
 const MainPage = () => {
   return (
-    <div className='h-screen w-screen bg-gray-900 text-white'>
+    <div className='h-screen w-screen text-white'>
         <Welcome />
         <div className='flex flex-col '>
           <div className='flex justify-center'>
-            <h3> Presentation </h3>    
+            <Presentation />    
           </div> 
           <div className='flex justify-center'>
             <h3> Projects </h3>    
